@@ -1,0 +1,45 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+/* Asegura que el carrusel ocupe todo el ancho disponible */
+.team-carousel-wrapper {
+  margin-top: 30px; /* Espacio entre el título y el carrusel */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  overflow: hidden; /* Evita desbordamientos */
+}
+
+/* Ajusta las diapositivas del carrusel */
+.team-carousel .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ajusta el tamaño de las tarjetas */
+.team-carousel .team {
+  max-width: 300px; /* Ajusta el tamaño de cada tarjeta */
+  margin: 0 auto; /* Centra las tarjetas */
+  text-align: center; /* Asegura que el contenido esté centrado */
+}
+
+.team-carousel img {
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho */
+  height: auto; /* Mantiene la proporción de las imágenes */
+  border-radius: 10px; /* Opcional: bordes redondeados */
+}
